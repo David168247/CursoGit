@@ -7,6 +7,51 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.grid__itemtext{
-    display: inline-block;
+
+
+.nav__menu{
+   background-color: black;
+   width: 100%;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+   align-content: space-around;
+   padding: 10px;
+}
+
+.nav__menuconteneir a{
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 10px; 
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.logo{
+    background-color: black;
+}
+.logo__img{
+    width: 200px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+.imagenfound{
+    width: 600px
+}
+
+.title{
+    color: black;
+    background-color: transparent;
+    padding-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.conteneir{
+    display: flex;
+    justify-content: center;
+   
 }
