@@ -28,7 +28,11 @@ body{
     text-transform: uppercase;
     font-size: 13px;
 }
-
+.nav__menuconteneir a:hover{
+  text-decoration: underline; 
+  color: rgb(187, 187, 187);
+  transition: all 0.5s ease;
+}
 .logo{
     background-color: black;
 }
@@ -48,10 +52,185 @@ body{
     padding-top: 60px;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 .conteneir{
     display: flex;
     justify-content: center;
-   
+    align-content: space-around;
+    padding-top: 40px;
+}
+
+.conteneir__boxer{
+    padding-right: 40px;
+}
+
+
+.button{
+    position: absolute;
+    bottom: -90px;
+    padding: 10px;    
+    border: none;
+    border-radius: 50px;
+}
+
+.box__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.box__span{
+    color: rgb(47, 49, 51);
+    font-weight: bold;
+}
+
+.ver__todo{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.ver__todobutton{
+    padding: 15px 20px;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+
+
+}
+.ver__todobutton:hover{
+      background-color: rgb(41, 223, 123);
+      transition: all 0.5s ease;
+}
+.ver__todospan{
+     font-size: 14px;
+     text-transform: uppercase;
+     color: white;
+     font-weight: bold;
+}
+
+.conteneir__shirt{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.conteneir__sueter{
+      padding-right: 60px;
+}
+
+.titulo__T-SHIRT{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button__shirt{
+    position: absolute;
+    bottom: -640px;
+    padding: 10px;    
+    border: none;
+    border-radius: 50px;
+}
+
+.shirt__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.shirt__span{
+    color: rgb(47, 49, 51);
+    font-weight: bold;
+}
+
+.text__shirt{
+    text-align: center;
+    margin: 60px;
+    padding-top: 30px;
+}
+
+.text__shirtbutton{
+     background-color: black;
+     color: white;
+     padding: 15px 20px;
+     border-radius: 4px;
+     border: none;
+}
+.text__shirtbutton:hover{
+    background-color: rgb(33, 218, 116);
+    transition: all 0.5s ease;
+}
+.text__shirtspan {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer{
+    border-top: 1px solid black;
+}
+
+.footer__enlaces{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.footer__span{
+    margin: 40px 90px;
+}
+
+.footer__spanli{
+    
+    
+    list-style: none;
+}
+
+.footer__spanli a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+}
+.footer__spanlienlaces a{
+        color: black;
+        font-size: 17px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.footer__correo{
+    margin: 40px;
+}
+.footer__correogmail{
+    padding: 10px 0;
+}
+
+.footer__input{
+    padding: 10px 160px 10px 2px;
+    font-size: 12px;
+}
+.footer__buttonsucribirse{
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid  rgb(87, 87, 87);;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.footer__buttonsalir{
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    border: 1px solid  rgb(87, 87, 87);;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
